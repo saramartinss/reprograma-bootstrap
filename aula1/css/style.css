@@ -1,0 +1,28 @@
+.nav-primary .navbar-collapse {
+    justify-content: flex-end;
+}
+
+.carousel-banner img{
+    height: 65vh;
+    object-fit: cover;
+}
+
+.carousel-banner h5{
+    font-size: 30px;
+}
+
+.carousel-banner p{
+    font-size: 20px;
+}
+
+h1.title {
+    margin: 25px 0;
+}
+
+.main-grid img {
+    height: 230px;
+}
+
+.row-margin{
+    margin-bottom: 25px;
+}
