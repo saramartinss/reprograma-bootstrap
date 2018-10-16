@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/style.css">    
 </head>
 <body>
-    <nav class="nav-primary navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="nav-primary navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
         <a class="navbar-brand" href="#">Start Bootstrap</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -73,24 +73,21 @@
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img class="d-block w-100" src="assets/photo1.jpg" alt="Imagem de um gatinho fofo dormindo">
+                <img class="d-block w-100" src="assets/photo1.jpg" alt="paisagem">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Esse gatinho é fofo</h5>
-                    <p>E tem lindos olhos!</p>
+                    <h5>Austrália</h5>
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="assets/photo2.jpg" alt="Imagem de um gatinho fofo com os olhos bem abertos">
+                <img class="d-block w-100" src="assets/photo2.jpg" alt="Imagem de um canguru">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Lindo gatinho</h5>
-                    <p>Atento</p>
+                    <h5>Canguru</h5>
                 </div>
               </div>
               <div class="carousel-item">
-                <img class="d-block w-100" src="assets/photo3.jpg" alt="Imagem de um gatinho fofo muito lindo">
+                <img class="d-block w-100" src="assets/photo3.jpg" alt="Paisagem de uma praia na Austrália">
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Lindo gatinho</h5>
-                    <p>Muito belo</p>
+                    <h5>Praia na Austrália</h5>
                 </div>
               </div>
             </div>
@@ -218,11 +215,52 @@
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
                 </div>
                 <div class="col-lg-6">
-                    <img class="img-fluid" src="assets/photo10.jpg" alt="Gato fofo">
+                    <img class="img-fluid" src="assets/photo10.jpg" alt="Gato fofo mostrando suas lindas patinhas">
                 </div>
             </div>
         </div>
     </section>
+    <section class="call-to-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, expedita, saepe, vero rerum deleniti beatae veniam harum neque nemo praesentium cum alias asperiores commodi.</p>
+                </div>
+                <div class="col-lg-4">
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-secondary btn-lg btn-block" data-toggle="modal" data-target="#exampleModalCenter">Call to Action</button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                Alguém me leva pra Austrália!
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Sim</button>
+                                    <button type="button" class="btn btn-primary">Não</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark p-5">
+        <div class="container">
+            <p class="text-white text-center m-0">
+                Copyright © Your Website 2018
+            </p>
+        </div>
+    </footer>
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
